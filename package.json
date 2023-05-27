@@ -1,0 +1,31 @@
+{
+  "name": "commentbox",
+  "version": "1.0.0",
+  "description": "Comment box to add multilevel comments",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.config.js",
+    "build-prod": "webpack --config webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/donetmathew/commentBox.git"
+  },
+  "author": "Donet Mathew",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/donetmathew/commentBox/issues"
+  },
+  "homepage": "https://github.com/donetmathew/commentBox#readme",
+  "dependencies": {
+    "webpack": "^5.83.1",
+    "webpack-cli": "^5.1.1",
+    "webpack-dev-server": "^4.15.0",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.7.5",
+    "sass": "^1.61.0",
+    "sass-loader": "^13.2.2",
+    "style-loader": "^3.3.2"
+  }
+}

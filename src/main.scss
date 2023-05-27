@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p{
+    margin:0;
+    padding: 4px 0;
+}
+
+.container{
+    margin: 30px;
+}
+#comment-container{
+    margin: 10px;
+}
+
+.comment-content{
+    background-color: aliceblue; 
+     padding: 15px; 
+    border: 1px solid lightgray;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.mainComment{
+    border-radius: 4px;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.subComments{
+    margin-left: 50px;
+}
+
+.avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.comment-content{
+    margin-left: 15px;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+input[type=text] {
+    padding:10px;
+    margin:10px 0; // add top and bottom margin
+  }
+
+.btn{
+        background-color: #008CBA;
+        border: none;
+        color: white;
+        padding: 5px 6px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 11px;
+        cursor: pointer;
+        border-radius: 5px;
+}
+

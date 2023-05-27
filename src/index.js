@@ -44,7 +44,7 @@ function createComment(title, description) {
 }
 
 function createCommentInput() {
-    let inputTitle = createElement("input", { className: "input-title",  placeholder: "title"});
+    let inputTitle = createElement("input", { className: "input-title", type:"text", placeholder: "Please enter comment"});
     let button = createElement("button", { className: "submit-btn", innerHTML:"Submit" });
     let comment = createElement("div", { className: "comment" } ,inputTitle,button);
     let commentInput = createElement("div", { className: "subComments input" } ,comment);

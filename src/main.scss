@@ -49,8 +49,24 @@ p{
 }
 
 input[type=text] {
-    padding:10px;
-    margin:10px 0; // add top and bottom margin
+    padding: 5px 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .submit-btn{
+    display: block;
+    margin: 7px 0;
+    background-color: #f44336;
+    border: none;
+    color: white;
+    padding: 5px 6px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    cursor: pointer;
+    border-radius: 5px;
   }
 
 .btn{

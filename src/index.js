@@ -14,8 +14,6 @@ function onCommentClick(e){
     let mainComment=comment.firstChild;
     if(target.classList.contains("btn")){
        let commentInput= createCommentInput();
-       console.log(comment.children);
-       console.log([...comment.children].every(el => el?.classList.contains("input")));
        if([...comment.children].some(el => el?.classList.contains("input"))){
         return;
        }
